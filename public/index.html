@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/9d1b9676c6.js" crossorigin="anonymous"></script>
+    <title>Web Portofolio</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    Talha's Portofolio.
+                </div>
+                <div class="menu">
+                    <ul class="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#personality">Favourite Personality</a></li>
+                        <li><a href="#city">Favourite Cities</a></li>
+                        <li><a href="#tourist">Tourist Spots</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                        <i class="fa-solid fa-xmark" style="color: #fff;" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" style="color: #fff;" onclick="openmenu()" ></i>
+                </div>
+            </nav>
+        </div>
+        <div class="container1">
+            <div class="header-text">
+                <br><br><br>
+                <p>Rookie Developer.</p>
+                <h1>I'm <span>Talha Siddiqui</span>,<br>From <span>Lahore</span>,<span>Pakistan</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------about------ -->
+    <div id="about">
+        <div class="container1">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img1.png" alt="Me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Meet <b>Talha Siddiqui</b>, a passionate and aspiring individual with a keen interest in technology and programming. Born with an innate curiosity for all things digital, <b>Talha Siddiqui</b> has set out on a journey to become a Full Stack Developer. Armed with a solid foundation in programming languages, a thirst for knowledge, and a commitment to lifelong learning, <b>Talha Siddiqui</b> envisions crafting seamless, end-to-end solutions that bring ideas to life in the digital realm. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"><b>Skills</b></p>
+                        <p class="tab-links" onclick="opentab('projects')"><b>Projects</b></p>
+                        <p class="tab-links" onclick="opentab('education')"><b>Education</b></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><b>UI/UX:</b></span><br> Designing Web/Programming</li>
+                            <li><span><b>Web Devolopment:</b></span><br> Website building</li>
+                            <li><span><b>Programming:</b></span><br> Creating programs</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span><b>Data Structure:</b></span><br>  Hashing Project</li>
+                            <li><span><b>Object Oriented programming:</b></span><br> Vending machine Project</li>
+                            <li><span><b>Database:</b></span><br>  Library Project</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><b>Matriculation:</b></span><br> Govt Boys High School Tajpura Lahore(2018-19)</li>
+                            <li><span><b>Intermediete:</b></span><br> Aspire Group Of Colleges(2020-21)</li>
+                            <li><span><b>Bacholers:</b></span><br> University of Management and Technology(2022-continued)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------Favourite Person----- -->
+    <div id="personality">
+        <div class="container1">
+            <div class="row">
+                <div class="person-col-1">
+                    <h1 class="sub-title">Shoaib Akhtar</h1>
+                    <p><b>Shoaib Akhtar</b>, widely known as the "Rawalpindi Express," is a former Pakistani cricketer and one of the fastest bowlers in the history of the game. Born on August 13, 1975, in Pakistan, Akhtar made a significant impact with his lightning-fast deliveries and aggressive style of play.</p>
+                </div>
+                <div class="person-col-2">
+                    <img src="images/Cricket Books.jpeg" alt="Shoaib Akhtar">
+                </div>
+            </div>
+                
+                <div class="vid">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/gZbPJFuFY5o?si=o_moUz_p1ZRqdHtq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+        </div>
+    </div>
+    <!-- --------Favourite Cities------ -->
+    <div id="city">
+        <div class="container1">
+            <h1 class="sub-title">Favourite Cities</h1>
+            <div class="cities-list">
+                <div>
+                    <h2>Lahore</h2>
+                    <img src="images/minar-e-pakistan.jpeg" alt="minar-e-pakistan" style="width: 50%; border-radius: 15px;">
+                    <p><b>Lahore</b>, often referred to as the "Heart of Pakistan," is a vibrant and culturally rich city that stands as the capital of the Punjab province. With a history dating back over a millennium, Lahore is a treasure trove of architectural wonders, including the iconic Badshahi Mosque, Lahore Fort, and Shalimar Gardens, which reflect the city's Mughal heritage.</p>
+                    <a href="https://en.wikipedia.org/wiki/Lahore">learn more</a>
+                </div>
+                <div>
+                    <h2>Faisalabad</h2>
+                    <img src="images/Clock_Tower_Faisalabad_by_Usman_Nadeem.jpg" alt="Clock_Tower" style="width: 60%; border-radius: 15px;">
+                    <p><b>Faisalabad</b>, often referred to as the "Manchester of Pakistan," is a bustling industrial city located in the heart of the country's Punjab province. Originally known as Lyallpur, the city was named after Sir James Lyall, the then Lieutenant Governor of the province during British rule. Faisalabad is a major center for the textile industry, housing numerous spinning mills and weaving facilities.</p>
+                    <a href="https://en.wikipedia.org/wiki/Faisalabad">learn more</a>
+                </div>
+                <div>
+                    <h2>Islamabad</h2>
+                    <img src="images/islamabad-pakistan-v0-kzb8hudw7qw81.jpg" alt="islamabad" style="width: 50%; border-radius: 15px;">
+                    <p><b>Islamabad</b>, the capital city of Pakistan, stands as a symbol of modernity, planning, and elegance. Nestled at the foothills of the Margalla Hills, Islamabad was chosen as the capital in 1963, replacing Karachi. The city is known for its well-planned infrastructure, greenery, and serene surroundings.</p>
+                    <a href="https://en.wikipedia.org/wiki/Islamabad">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------tourist spots-------- -->
+    <div id="tourist">
+        <div class="container1">
+            <h1 class="sub-title">Tourist Spots</h1>
+            <div class="spot-lists">
+                <div>
+                    <h2>Badshahi Mosque</h2>
+                    <img src="images/1280px-Badshahi_Mosque_front_picture.jpg" alt="Badshahi_Mosque" style="width: 50%; border-radius: 15px;">
+                    <p>A masterpiece of Mughal architecture, the Badshahi Mosque is one of the largest mosques in the world. Completed in 1673, it is known for its stunning red sandstone and marble construction. The mosque is a symbol of grandeur and magnificence.</p>
+                </div>
+                <div>
+                    <h2>Lahore Fort</h2>
+                    <img src="images/1280px-Lahore_Fort_view_from_Baradari.jpg" alt="lahore fort" style="width: 50%; border-radius: 15px;">
+                    <p>Adjacent to the Badshahi Mosque, the Lahore Fort is a UNESCO World Heritage Site. It showcases a blend of Mughal, Sikh, and British architectural influences. Visitors can explore the Sheesh Mahal (Palace of Mirrors), Alamgiri Gate, and the beautifully landscaped Shalimar Gardens within the fort complex.</p>
+                </div>
+                <div>
+                    <h2>Shalimar Garden</h2>
+                    <img src="images/1920px-Reflection_of_Farah_Baksh_Terrace_(Upper_Terrace)_main_building.jpg" alt="shalimar garden" style="width: 50%; border-radius: 15px;">
+                    <p>Built during the reign of Emperor Shah Jahan, the Shalimar Gardens are a prime example of Mughal garden design. The terraced gardens feature flowing water, fountains, and pavilions, creating a serene and picturesque atmosphere.</p>
+                </div>
+                <div>
+                    <h2>Sheesh Mahal</h2>
+                    <img src="images/Sheesh_Mahal_Arches.jpg" alt="sheesh mahal" style="width: 50%; border-radius: 15px;">
+                    <p>Located within the Lahore Fort, the Sheesh Mahal (Palace of Mirrors) is a stunning structure adorned with intricate mirror work. It was built by Emperor Shah Jahan and is a captivating display of craftsmanship and artistic excellence.</p>
+                </div>
+                <div>
+                    <h2>Anarkali Bazaar</h2>
+                    <img src="images/Old-Anarkali-Bazar.jpg" alt="Anarkali" style="width: 50%; border-radius: 15px;">
+                    <p>One of the oldest markets in Lahore, Anarkali Bazaar is a bustling marketplace known for its vibrant atmosphere and diverse array of shops. Visitors can explore a variety of goods, including traditional clothing, jewelry, and handicrafts.</p>
+                </div>
+                <div>
+                    <h2>Lahore Museum</h2>
+                    <img src="images/Lahore_Museum,_Lahore.jpg" alt="Lahore_Museum" style="width: 50%; border-radius: 15px;">
+                    <p>Founded in 1865, the Lahore Museum is one of the oldest museums in South Asia. It houses an extensive collection of artifacts, including manuscripts, coins, sculptures, and exhibits that showcase the region's rich history.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------contacts------- -->
+    <div id="contact">
+        <div class="container1">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p>contact@email.com</p>
+                    <p>032457891</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/talhasiddiqi_/"><img src="images/computer-icons-logo-photography-instagram-icon-instagram-8a27a2384d2f126ac027faac2621d745.png" alt="instagram" style="width: 5%;">Instagram</a>
+                        <a href="https://www.facebook.com/Talha.98745/"><img src="images/computer-icons-clip-art-icon-fb-0d4d1d07867da70f0a107c3f8ecf49de.png" alt="facebook" style="width: 5%;">Facebook</a>
+                        <a href="https://github.com/Talha-Siddiqui07"><img src="images/github-logo-repository-computer-icons-github-4f62259da03e1590b862793c9af5b446.png" alt="github" style="width: 5%;">Github</a>
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Feedback"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> All Copyright's Reserved ©️ Talha. Made with Great Difficulty</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx5Q2qY4SSELrQST5NKIs2QtEDk8JbLhiJ-qqfBHcDhNk3lWUyg1ViAN5Kac2Kt60WL8Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
